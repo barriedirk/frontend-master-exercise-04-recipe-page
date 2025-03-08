@@ -34,12 +34,12 @@
     </style>
   </head>
   <body>
-    <main class="wrapper">
+    <main class="wrapper" role="main">
       <div class="recipe flex-column">
         <img
           class="recipe__dish"
           src="assets/images/image-omelette.jpeg"
-          alt="Omelette"
+          alt="Delicious Omelette on a plate"
         />
 
         <div class="recipe__body flex-column">
@@ -53,7 +53,7 @@
 
           <section class="recipe__preparation-time">
             <h3>Preparation time</h3>
-            <ul>
+            <ul role="list">
               <li>
                 <span><strong>Total</strong>: Approximately 10 minutes</span>
               </li>
@@ -64,7 +64,7 @@
 
           <section class="recipe__ingredients">
             <h2>Ingredients</h2>
-            <ul>
+            <ul role="list">
               <li>2-3 large eggs</li>
               <li>Salt, to taste</li>
               <li>Pepper, to taste</li>
@@ -80,8 +80,8 @@
 
           <section class="recipe__instructions">
             <h2>Instructions</h2>
-            <ol>
-              <li>
+            <ol role="list">
+              <li role="listitem">
                 <span
                   ><strong>Beat the eggs</strong>: In a bowl, beat the eggs with
                   a pinch of salt and pepper until they are well mixed. You can
@@ -89,20 +89,20 @@
                   texture.</span
                 >
               </li>
-              <li>
+              <li role="listitem">
                 <span>
                   <strong>Heat the pan</strong>: Place a non-stick frying pan
                   over medium heat and add butter or oil.</span
                 >
               </li>
-              <li>
+              <li role="listitem">
                 <span>
                   <strong>Cook the omelette</strong>: Once the butter is melted
                   and bubbling, pour in the eggs. Tilt the pan to ensure the
                   eggs evenly coat the surface.</span
                 >
               </li>
-              <li>
+              <li role="listitem">
                 <span>
                   <strong>Add fillings (optional)</strong>: When the eggs begin
                   to set at the edges but are still slightly runny in the
@@ -110,7 +110,7 @@
                   omelette.</span
                 >
               </li>
-              <li>
+              <li role="listitem">
                 <span>
                   <strong>Fold and serve</strong>: As the omelette continues to
                   cook, carefully lift one edge and fold it over the fillings.
@@ -118,7 +118,7 @@
                   plate.</span
                 >
               </li>
-              <li>
+              <li role="listitem">
                 <span>
                   <strong>Enjoy</strong>: Serve hot, with additional salt and
                   pepper if needed.</span
@@ -137,22 +137,22 @@
               additional fillings.
             </p>
 
-            <div class="recipe__nutrition--table">
-              <div class="row">
-                <div class="column">Calories</div>
-                <div class="column">277kcal</div>
+            <div class="recipe__nutrition--table" role="table">
+              <div class="row" role="row">
+                <div class="column" role="columnheader">Calories</div>
+                <div class="column" role="cell">277kcal</div>
               </div>
-              <div class="row">
-                <div class="column">Carbs</div>
-                <div class="column">0g</div>
+              <div class="row" role="row">
+                <div class="column" role="columnheader">Carbs</div>
+                <div class="column" role="cell">0g</div>
               </div>
-              <div class="row">
-                <div class="column">Protein</div>
-                <div class="column">20g</div>
+              <div class="row" role="row">
+                <div class="column" role="columnheader">Protein</div>
+                <div class="column" role="cell">20g</div>
               </div>
-              <div class="row">
-                <div class="column">Fat</div>
-                <div class="column">22g</div>
+              <div class="row" role="row">
+                <div class="column" role="columnheader">Fat</div>
+                <div class="column" role="cell">22g</div>
               </div>
             </div>
           </section>
